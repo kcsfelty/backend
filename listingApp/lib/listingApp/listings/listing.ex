@@ -14,7 +14,7 @@ defmodule ListingApp.Listings.Listing do
     postal: string,
     price: string,
     state: string,
-    agent_id: integer,
+    agent_id: string,
     agent: Agent.t(),
     photos: [Photo.t()]
   }

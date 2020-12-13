@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7218bf00-a622-41ee-99d2-f011f03c951c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/agent_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/listing_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/photo_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/agent_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/listing_test.exs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/photo_test.exs" afterDir="false" />
+    <list default="true" id="7218bf00-a622-41ee-99d2-f011f03c951c" name="Default Changelist" comment="initial unit tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp/agents/agent.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp/agents/agent.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp/listings/listing.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp/listings/listing.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp_web/schema.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp_web/schema.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp_web/types/agent.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp_web/types/agent.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/agents.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/agent_resolver_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/listings.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/listing_resolver_test.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/listings_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp/listings_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/photos.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/photo_resolver_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listingApp/test/test_helper.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/test_helper.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/listing_resolver_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/listing_resolver_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/agent_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/agent_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/listing_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/listing_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/listing_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/listing_test.exs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +98,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607626276267</updated>
-      <workItem from="1607626277319" duration="78020000" />
+      <workItem from="1607626277319" duration="88351000" />
     </task>
+    <task id="LOCAL-00001" summary="initial unit tests">
+      <created>1607828738389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607828738389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial unit tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1607808038835">
@@ -130,10 +134,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="267" key="IDE.errors.dialog/1920.-351.1080.1890/-1080.-341.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1607700381067" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1607828700159">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1607828741154">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.-351.1080.1890/-1080.-341.1080.1890@0.0.1920.1050" timestamp="1607828700159" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.-351.1080.1890/-1080.-341.1080.1890@0.0.1920.1050" timestamp="1607828741154" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607809356602">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

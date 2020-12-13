@@ -2,6 +2,38 @@ defmodule ListingApp.ListingsTest do
   use ListingApp.DataCase
 
   alias ListingApp.Listings
+  alias ListingApp.Agents
+
+  @create_agent_mutation """
+  mutation($name: String!, $email: String!, $phone: String, $fax: String ){
+    createAgent(agent:{
+      name:$name
+      email:$email
+      phone:$phone
+      fax:$fax
+    }){
+      id
+      name
+      phone
+      email
+  }
+  }
+  """
+  @create_agent_variables %{
+    "name" => "some name",
+    "email" => "some@email.com",
+    "phone" => "555-123-1234",
+    "fax" => "555-321-4321"
+  }
+
+  #setup_all do
+    #agent = Agents.create_agent(@create_agent_variables)
+  #end
+  #agent = Absinthe.run(@create_agent_mutation, ListingAppWeb.Schema, context: %{}, variables: @create_agent_variables)
+
+
+
+
 
   describe "listings" do
     alias ListingApp.Listings.Listing
@@ -13,7 +45,7 @@ defmodule ListingApp.ListingsTest do
       postal: "some postal",
       price: "some price",
       state: "some state",
-      agent_id: "356d2293-dc47-4ecf-86b0-e0adbe373880"
+      agent_id: "agent"
     }
 
     @update_attrs %{
@@ -35,17 +67,37 @@ defmodule ListingApp.ListingsTest do
     }
 
     def listing_fixture(attrs \\ %{}) do
+      {:ok, %ListingApp.Agents.Agent{id: agentId}} = Agents.create_agent(@create_agent_variables)
+      valid_attrs = %{
+        address: "some address",
+        city: "some city",
+        mls_id: "12345678",
+        postal: "some postal",
+        price: "some price",
+        state: "some state",
+        agent_id: agentId
+      }
       {:ok, listing} =
         attrs
-        |> Enum.into(@valid_attrs)
+        |> Enum.into(valid_attrs)
         |> Listings.create_listing()
 
       listing
     end
 
-
       test "create_listing/1 with valid data creates a listing" do
-        assert {:ok, %Listing{} = listing} = Listings.create_listing(@valid_attrs)
+      {:ok, %ListingApp.Agents.Agent{id: agentId}} = Agents.create_agent(@create_agent_variables)
+      valid_attrs = %{
+        address: "some address",
+        city: "some city",
+        mls_id: "12345678",
+        postal: "some postal",
+        price: "some price",
+        state: "some state",
+        agent_id: agentId
+      }
+
+        assert {:ok, %Listing{} = listing} = Listings.create_listing(valid_attrs)
         assert listing.address == "some address"
         assert listing.city == "some city"
         assert listing.mls_id == "12345678"

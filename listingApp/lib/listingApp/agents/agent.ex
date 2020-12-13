@@ -5,9 +5,9 @@ defmodule ListingApp.Agents.Agent do
 
   @primary_key {:id, :binary_id, autogenerate: true}
   @foreign_key_type :binary_id
-  @required_fields ~w(name email)a
+  @required_fields ~w(name email phone fax)a
   @type t :: %__MODULE__{
-    id: integer,
+    id: string,
     email: string,
     phone: string,
     fax: string,
@@ -29,9 +29,9 @@ defmodule ListingApp.Agents.Agent do
     agent
     |> cast(attrs, @required_fields)
     |> validate_required(@required_fields)
-    |> validate_format(attrs, :name, ~r/\D+/)
-    |> validate_format(attrs, :email, ~r/@/)
-    |> validate_format(attrs, :phone, ~r/\d{3}-\d{3}-\d{4}/)
-    |> validate_format(attrs, :fax, ~r/\d{3}-\d{3}-\d{4}/)
+    #|> validate_format(attrs, :name, ~r/\D+/)
+    #|> validate_format(attrs, :email, ~r/@/)
+    #|> validate_format(attrs, :phone, ~r/\d{3}-\d{3}-\d{4}/)
+    #|> validate_format(attrs, :fax, ~r/\d{3}-\d{3}-\d{4}/)
   end
 end
