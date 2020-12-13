@@ -6,15 +6,11 @@ services:
     image: postgres
     restart: always
     volumes:
-      - listingsApp2:/var/lib/postgresql/data
+      - listingsApp:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: root
     ports:
       - 9331:5432
 
-  elixir:
-    image: elixir:latest
-
-
 volumes:
-  listingsApp2:
+  listingsApp:

@@ -6,7 +6,8 @@ To run:
   * Clone repo
   * Navigate to project base and run `docker-compose up`
   * Navigate into the listingApp base (`cd listingApp`) 
-  * Get deps: `mix deps.get`
+  * Get dependencies `mix deps.get`
+  * Then build the schema `mix ecto.setup`
   * Then run the included unit tests with `mix test`
   * To test HTTP requests, launch the server with `iex -S mix phx.server`
 
