@@ -29,5 +29,9 @@ defmodule ListingApp.Agents.Agent do
     agent
     |> cast(attrs, @required_fields)
     |> validate_required(@required_fields)
+    |> validate_format(attrs, :name, ~r/\D+/)
+    |> validate_format(attrs, :email, ~r/@/)
+    |> validate_format(attrs, :phone, ~r/\d{3}-\d{3}-\d{4}/)
+    |> validate_format(attrs, :fax, ~r/\d{3}-\d{3}-\d{4}/)
   end
 end

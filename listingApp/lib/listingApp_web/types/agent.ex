@@ -20,7 +20,7 @@ defmodule ListingAppWeb.Types.Agent do
     field :id, non_null(:id)
     field :name, non_null(:string)
     field :email, non_null(:string)
-    field :phone,
+    field :phone, non_null(:string)
     field(:listings, list_of(:listing), resolve: dataloader(Listing))
   end
 

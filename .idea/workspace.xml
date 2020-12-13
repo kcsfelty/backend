@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7218bf00-a622-41ee-99d2-f011f03c951c" name="Default Changelist" comment="" />
+    <list default="true" id="7218bf00-a622-41ee-99d2-f011f03c951c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/agent_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/listing_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/mutations/photo_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/agent_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/listing_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries/photo_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp/agents/agent.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp/agents/agent.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp/listings/listing.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp/listings/listing.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp_web/schema.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp_web/schema.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/lib/listingApp_web/types/agent.ex" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/lib/listingApp_web/types/agent.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/agents.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/agent_resolver_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/listings.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/listing_resolver_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/listings_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp/listings_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/listingApp/photos.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/listingApp_web/resolvers/photo_resolver_test.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingApp/test/test_helper.exs" beforeDir="false" afterPath="$PROJECT_DIR$/listingApp/test/test_helper.exs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lTg15yL5kv73si4QvSzp9AYaye" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/listingApp/test/listingApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/listingApp/test/listingApp_web/schemas/queries" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,11 +57,11 @@
       <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\lib\listingApp\agents" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\test\listingApp_web\schemas\queries" />
+      <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\test\listingApp_web\schemas\mutations" />
+      <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\test\listingApp_web\resolvers" />
       <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\test\listingApp" />
       <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\priv\repo\migrations" />
-      <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\lib\listingApp" />
-      <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\lib\listingApp_web\schemas\mutations" />
-      <recent name="C:\Users\manof\Desktop\homespotter\backend\listingApp\lib\listingApp_web\schemas\queries" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml.db: Compose Deployment">
@@ -80,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607626276267</updated>
-      <workItem from="1607626277319" duration="57345000" />
+      <workItem from="1607626277319" duration="78020000" />
     </task>
     <servers />
   </component>
@@ -88,9 +114,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1607808038835">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/1920.-351.1080.1890/-1080.-341.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1607808038835" />
+    <state x="838" y="422" width="524" height="205" key="Github.ShareDialog" timestamp="1607746698097">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="838" y="422" width="524" height="205" key="Github.ShareDialog/1920.-351.1080.1890/-1080.-341.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1607746698097" />
+    <state x="752" y="230" key="Github.UntrackedFilesDialog" timestamp="1607746707496">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="230" key="Github.UntrackedFilesDialog/1920.-351.1080.1890/-1080.-341.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1607746707496" />
     <state x="540" y="267" key="IDE.errors.dialog" timestamp="1607700381067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="267" key="IDE.errors.dialog/1920.-351.1080.1890/-1080.-341.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1607700381067" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1607828700159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.-351.1080.1890/-1080.-341.1080.1890@0.0.1920.1050" timestamp="1607828700159" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607809356602">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-351.1080.1890/-1080.-341.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1607809356602" />
   </component>
 </project>
