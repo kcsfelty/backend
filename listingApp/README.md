@@ -1,19 +1,22 @@
 # ListingApp
 
-To start your Phoenix server:
+Submission for the Real Estate Listing API
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+To run:
+  * Clone repo
+  * Navigate to project base and run `docker-compose up`
+  * Navigate into the listingApp base (`cd listingApp`) 
+  * Get deps: `mix deps.get`
+  * Then run the included unit tests with `mix test`
+  * To test HTTP requests, launch the server with `iex -S mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+About the code:
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+After reading about your tech stack via the prompt, I used this as an opportunity to try/learn Elixir.
+I also used Absinthe, which helped me get off the ground while starting off as I was dealing with a lot of unknown-unknowns.
+By using Absinthe to generate some context files (Listing, Agent, Photo) I was able to get my bearings,
+but went on to re-write (and restructure) just about everything. Existing generated code can be found in 
+ListingApp.Listings, ListingApp.Agents, and ListingApp.Photos. Overall, although all deliverables are present, 
+I feel that there are a lot of avenues for improvement in the code that exist due to a lack of experience in Elixir
+(for example, had I known earlier about how setup_all passes a context into the
+tests, the queries and mutations test files for listing would've been much cleaner), also Elixir's pipe feature is pretty sweet! 
